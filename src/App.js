@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import MainHeader from './components/MainHeader';
-import Books from './redux/books/Books';
-import Categories from './redux/categories/Categories';
+import Books from './components/books/Books';
+import Categories from './components/categories/Categories';
 
 function App() {
   return (
