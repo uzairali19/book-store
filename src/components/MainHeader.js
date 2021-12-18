@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const MainHeader = () => {
   return (
     <header className="header">
-      <nav>
+      <nav className="navbar">
         <div className="nav-brand">
           <h1>Bookstore CMS</h1>
         </div>
