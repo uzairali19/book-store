@@ -149,6 +149,58 @@
 }
 
 .completed {
+  display: flex;
+}
+
+.percentage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progress-spinner {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 10px solid #379cf6;
+  clip: rect(0, 50px, 100px, 0);
+}
+
+#middle-circle {
+  position: absolute;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data > h1 {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.data > p {
   padding-right: 4.938rem;
   width: 5rem;
   height: 1.125rem;
@@ -240,6 +292,7 @@
 .addbook {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .addbook input,
@@ -259,4 +312,15 @@
 #books {
   padding-left: 10px;
   opacity: 0.5;
+}
+
+.addbook button {
+  width: 11.5rem;
+  height: 2.813rem;
+  margin: 0 0 0 2.125rem;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  color: #fff;
 }

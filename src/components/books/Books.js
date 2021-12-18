@@ -24,7 +24,20 @@ const Books = ({ removeBtn, bookDetail }) => {
                   </button>
                 </div>
               </div>
-              <div className="completed">Completed</div>
+              <div className="completed">
+                <div className="percentage">
+                  <div id="progress-spinner">
+                    <noscript>THis is not a script</noscript>
+                  </div>
+                  <div id="middle-circle">
+                    <noscript>THis is not a script</noscript>
+                  </div>
+                </div>
+                <div className="data">
+                  <h1>64%</h1>
+                  <p>Completed</p>
+                </div>
+              </div>
             </div>
             <div className="book-stats">
               <p>Current Chapter</p>

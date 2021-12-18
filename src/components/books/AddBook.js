@@ -39,7 +39,7 @@ const AddBook = ({ addBook }) => {
           <option value="category">Category</option>
         </select>
         <button type="submit" onClick={submitBook}>
-          Submit
+          Add Book
         </button>
       </form>
     </div>
