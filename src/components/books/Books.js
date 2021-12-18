@@ -37,7 +37,6 @@ const Books = ({ removeBtn, bookDetail }) => {
 };
 
 Books.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
   bookDetail: PropTypes.array.isRequired,
   removeBtn: PropTypes.func.isRequired
 };
