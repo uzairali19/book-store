@@ -6,23 +6,25 @@ const Books = ({ removeBtn, bookDetail }) => {
     <div className="book-container">
       {bookDetail.map((book) => {
         return (
-          <div key={book.id}>
+          <div key={book.id} className="book-store">
             <div className="book-info">
               <div className="main-book">
                 <div className="book-data">
                   <p>Book Genre</p>
                   <h1>{book.title}</h1>
-                  <h3>{book.author}</h3>
+                  <h3>{book.category}</h3>
                 </div>
                 <div className="action-btns">
                   <button type="button">Comments</button>
                   <button type="button" className="removeBtn" onClick={() => removeBtn(book.id)}>
                     Remove
                   </button>
-                  <button type="button">Edit</button>
+                  <button className="no-line" type="button">
+                    Edit
+                  </button>
                 </div>
               </div>
-              <div className="completed">Book Completed</div>
+              <div className="completed">Completed</div>
             </div>
             <div className="book-stats">
               <p>Current Chapter</p>
