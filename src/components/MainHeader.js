@@ -10,12 +10,12 @@ const MainHeader = () => {
         </div>
         <ul className="list">
           <li>
-            <NavLink activeClassName="active" to="/">
+            <NavLink activeclassname="active" to="/">
               Books
             </NavLink>
           </li>
           <li>
-            <NavLink activeClassName="active" to="/categories">
+            <NavLink activeclassname="active" to="/categories">
               Categories
             </NavLink>
           </li>
