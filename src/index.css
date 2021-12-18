@@ -163,8 +163,7 @@
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  border: 10px solid #379cf6;
-  clip: rect(0, 50px, 100px, 0);
+  background: conic-gradient(rgb(3, 133, 255) 80%, rgb(242, 242, 242) 80%);
 }
 
 #middle-circle {
