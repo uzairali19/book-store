@@ -22,7 +22,9 @@
     "comma-dangle": "off",
     "react/jsx-one-expression-per-line": "off",
     "arrow-body-style": "off",
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "react/require-default-props": "off",
+    "react/forbid-prop-types": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
 }
